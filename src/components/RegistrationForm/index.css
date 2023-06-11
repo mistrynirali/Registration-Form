@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ea580c;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.card-screen {
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: calc(354px - 1rem);
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.name-input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.name-input-field input {
+  width: 100%;
+  color: #9aa5b1;
+  border: 1px solid #9aa5b1;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+.input-labels {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #475569;
+}
+.required-text {
+  color: #ff0b37;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: -0.3rem;
+}
+.orange-btn {
+  padding: 0.5rem;
+  background-color: #ea580c;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+.success-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blue-tick {
+  margin-bottom: 2rem;
+}
+.success-text {
+  margin-bottom: 2rem;
+  color: #475569;
+  font-weight: 500;
+}
+.red-class {
+  border: 1px solid #ff0b37 !important;
+  background-color: #fef2f4;
+}
+
+@media (min-width: 768px) {
+  .card-screen {
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+  .orange-btn {
+    align-self: center;
+  }
+  .success-btn {
+    align-self: stretch;
+  }
+}
